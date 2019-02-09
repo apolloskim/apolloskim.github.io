@@ -3048,14 +3048,14 @@ input, select, textarea {
 		}
 
 			#header .inner .actions {
-				-moz-transition: -moz-transform 1.25s ease;
-				-webkit-transition: -webkit-transform 1.25s ease;
-				-ms-transition: -ms-transform 1.25s ease;
-				transition: transform 1.25s ease;
-				-moz-transition-delay: 1s;
-				-webkit-transition-delay: 1s;
-				-ms-transition-delay: 1s;
-				transition-delay: 1s;
+				-moz-transition: -moz-transform .75s ease;
+				-webkit-transition: -webkit-transform .75s ease;
+				-ms-transition: -ms-transform .75s ease;
+				transition: transform .75s ease;
+				-moz-transition-delay: .25s;
+				-webkit-transition-delay: .25s;
+				-ms-transition-delay: .25s;
+				transition-delay: .25s;
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);

@@ -2905,7 +2905,7 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		/* background-color: #4686a0; */
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
@@ -3030,10 +3030,10 @@ input, select, textarea {
 			}
 
 		#header .inner {
-			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
-			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
-			-ms-transition: -ms-transform 1.5s ease, opacity 2s ease;
-			transition: transform 1.5s ease, opacity 2s ease;
+			-moz-transition: -moz-transform .5s ease, opacity 1s ease;
+			-webkit-transition: -webkit-transform .5s ease, opacity 1s ease;
+			-ms-transition: -ms-transform .5s ease, opacity 1s ease;
+			transition: transform .5s ease, opacity 1s ease;
 			-moz-transition-delay: 0.25s;
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
